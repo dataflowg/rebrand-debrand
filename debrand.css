@@ -8,6 +8,7 @@
 @supportURL  https://github.com/dataflowg/rebrand-debrand/issues
 @updateURL   https://raw.githubusercontent.com/dataflowg/rebrand-debrand/master/debrand.css
 @license     The Unlicense
+@preprocessor uso
 ==/UserStyle== */
 
 :root {
