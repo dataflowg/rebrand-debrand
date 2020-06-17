@@ -10,7 +10,7 @@
 @license     The Unlicense
 @preprocessor uso
 ==/UserStyle== */
-
+@-moz-document domain("ni.com") {
 :root {
   --forrest-green: #065FA3;
 }
@@ -93,3 +93,4 @@ a[class="lia-link-navigation faq-link lia-component-help-action-faq"], a[class="
 }
 
 .ni-tabs>li.active div { border-color: #ddd !important; }
+}
