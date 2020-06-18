@@ -136,6 +136,9 @@ div[class="ni__carousel-content-container"] {
 g[stroke="#35B77D"] {
     stroke: var(--forrest-green);
 }
+.ni__carousel .ni__carousel-controls>button {
+    border-color: #ddd;
+}
 
 /* FOOTER */
 .footer-body {
