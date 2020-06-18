@@ -91,6 +91,9 @@ h3[style="color:#044123"] {
 .ni__hero-block__content {
     background-color: var(--off-white) !important;
 }
+.ni__hero__image:after {
+    background: linear-gradient(#fff,transparent);
+}
 .ni__hero-solutions__path:before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMTI4OCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDY1RkEzIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik00NzggMnY4NTYuMDIyQzQ3OCAxMDk0LjM4OCAyMzcuNTgzIDEyODYgMiAxMjg2Ii8+PC9zdmc+);
 }
@@ -102,13 +105,6 @@ path[d="M2 2v1091.628C2 1328.555 193.46 1519 429.636 1519H661"] {
     background-color: var(--forrest-green);
 }
 
-.ni__lead-quote-image__headline:after,
-.ni__lead-quote-image__headline:before {
-    background-color: var(--forrest-green) !important;
-}
-.ni__lead-quote-image__headline {
-    color: var(--forrest-green) !important;
-}
 .ni__carousel .ni__carousel-container {
     background: var(--forrest-green);
 }
@@ -159,6 +155,9 @@ path[stroke="#044123"] {
 .ni__aboutus-getThere .ni__aboutus-getThere__container span:before {
     border-top: 2px solid var(--forrest-green);
 }
+.ni__aboutus-peoplefirst .ni__aboutus-peoplefirst_eyebrow span:before {
+    border-top: 2px solid var(--forrest-green);
+}
 .ni__button--outline {
     border-color: var(--power-green);
 }
@@ -181,6 +180,24 @@ a:hover[class="ni-btn ni-btn-tertiary "] {
 .ni-video-card-overlay-play-icon {
     background: url(https://ni.scene7.com/is/image/ni/play_button?fmt=png-alpha&op_colorize=17,97,160) 0 0 no-repeat;
     background-size: 46px 46px;
+}
+path[fill="#044123"] {
+    fill: var(--forrest-green) !important;
+}
+path[fill="#CDDCC8"] {
+    fill: var(--off-white) !important;
+}
+.ni__big_hero_bgImg:before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMzIiIGhlaWdodD0iMTQ4MiI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDY1RkEzIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik0yIDJ2MTE0OS4wMTdDMiAxMzMyLjcwOSAxNDguODUgMTQ4MCAzMzAgMTQ4MCIvPjwvc3ZnPg==);
+}
+.ni__three-columns-lead-carousel .curved_line {
+    border-left: 3px solid var(--forrest-green);
+}
+.ni__three-columns-lead-carousel .curved_line {
+    border-bottom: 3px solid var(--forrest-green);
+}
+.ni__eyebrow_headline_CTA .ni__eyebrow span:before {
+    border-top: 2px solid var(--forrest-green);
 }
 
 /* FOOTER */
