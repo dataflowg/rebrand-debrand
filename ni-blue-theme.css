@@ -133,6 +133,9 @@ div[class="ni__carousel-content-container"] {
 .ni__lead-quote-stats__item span {
     color: #444;
 }
+g[stroke="#35B77D"] {
+    stroke: var(--forrest-green);
+}
 
 /* FOOTER */
 .footer-body {
