@@ -44,7 +44,6 @@ a {
 
 /* HEADER */
 .ni-wrapper-header li.ni-logo a {
-    /*background-image: url(https://media.glassdoor.com/sqll/4030/national-instruments-squarelogo.png);*/
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' id='svg4568' viewBox='-1.6454607 -1.6454607 60.837643 58.139611' height='258' width='270' version='1.0'%3E%3Cmetadata id='metadata931'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs id='defs4570' /%3E%3Cpath style='fill:%23065fa3;fill-opacity:1;fill-rule:nonzero;stroke:%231465af;stroke-width:0.26249999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' id='path2494' d='m 33.01146,7.4624412 c 0.155,-2.7 2.485,-4.98875 4.88125,-5.67 5.98125,-1.69750002 9.18125,-1.38625002 19.905,-1.47375002 -6.4275,5.75375002 -11.56,14.81874982 -10.41,23.68749982 -2.31125,-1.88875 -3.86875,-4.59375 -5.875,-6.755 0.7425,-1.4475 1.5025,-2.8725 1.935,-4.51 0.70875,-2.68375 2.64375,-3.3174998 5.09375,-3.2424998 0.185,0.005 -0.14375,-2.06625 -0.8225,-2.25 -1.825,-0.49375 -3.3725,0.09375 -5.4925,-0.7275 -0.68375,-0.265 -1.4525,0.09375 -2.025,0.38625 -1.74,0.88875 -2.84125,2.78875 -4.79875,3.3912498 z' /%3E%3Cpath style='fill:%23065fa3;fill-opacity:1;fill-rule:nonzero;stroke:%231465af;stroke-width:0.26249999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' id='path2496' d='m 0.22396017,5.7274412 c 3.66250003,-2.5 7.20500003,-4.225 11.54874983,-5.01875002 5.47375,-1 11.40125,-1.07375 15.49125,2.86750002 7.71875,7.4349998 13.97125,15.2387498 20.74375,23.7362498 0.2675,0.335 0.245,1.24875 0.01125,1.3825 -4.81,2.74 -9.575,4.99375 -14.705,6.88375 -0.81625,0.30125 -1.845,-0.0575 -2.355,-0.52 -7.72,-7.015 -13.00875,-15.4125 -20.4175,-22.7125 C 7.6852102,9.5311912 4.2527102,7.5211912 0.41896017,6.3299412 c -0.30625,-0.095 -0.3625,-0.48875 -0.195,-0.6025 z' /%3E%3Cpath style='fill:%23065fa3;fill-opacity:1;fill-rule:nonzero;stroke:%231465af;stroke-width:0.26249999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' id='path2498' d='m 27.20646,39.958691 c -5.57125,3.96625 -10.32625,8.9075 -13.85125,14.75875 -1.34625,-5.73875 -1.43625,-11.7975 0.55625,-17.37125 1.93875,-5.42375 2.30875,-10.695 2.56625,-16.34875 3.52125,4.0575 7.52125,8.54 10.815,12.60875 z' /%3E%3Cpath style='fill:%23ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none' id='path2500' d='m 41.51271,17.251191 c 0.7425,-1.4475 1.5025,-2.8725 1.935,-4.51 0.70875,-2.68375 2.64375,-3.3174998 5.09375,-3.2424998 0.185,0.005 -0.14375,-2.06625 -0.8225,-2.25 -1.825,-0.49375 -3.3725,0.09375 -5.4925,-0.7275 -0.68375,-0.265 -1.4525,0.09375 -2.025,0.38625 -1.74,0.88875 -2.84125,2.78875 -4.79875,3.3912498 l 6.11,6.9525' /%3E%3C/svg%3E%0A");
 }
 .wrapper-search-form button svg,
@@ -59,7 +58,7 @@ li.nia-menu-item.nia-utils.header-icon svg {
     background-color: var(--forrest-green) !important;
 }
 .ni-blue {
-    background-color: var(--forrest-green) !important;
+    background-color: var(--forrest-green);
 }
 .ni-megamenu-desktop h4 {
     color: var(--forrest-green);
@@ -166,6 +165,23 @@ path[stroke="#044123"] {
 .ni__button--outline:focus {
     border-color: var(--power-green);
 }
+.ni-btn-secondary {
+    background-color: #ddd;
+}
+a:hover[class="ni-btn ni-btn-secondary "] {
+    background-color: var(--ni-green);
+}
+a:hover[class="ni-btn ni-btn-tertiary "] {
+    color: white !important;
+    background-color: var(--forrest-green);
+}
+.ni-card-overlay-background {
+    background: #065fa3e6;
+}
+.ni-video-card-overlay-play-icon {
+    background: url(https://ni.scene7.com/is/image/ni/play_button?fmt=png-alpha&op_colorize=17,97,160) 0 0 no-repeat;
+    background-size: 46px 46px;
+}
 
 /* FOOTER */
 .footer-body {
@@ -200,6 +216,7 @@ div[class="container-fluid clearfix ni-blue"] {
     color: #444;
 }
 
+
 /* FORUM */
 #lia-body .global-header-breadcrumb-wrapper div.left .lia-component-common-widget-breadcrumb .lia-link-navigation {
     color: #444;
@@ -231,14 +248,27 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 #lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action {
     background: var(--forrest-green) !important;
 }
+#lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action:hover {
+    color: white !important;
+    background-color: var(--power-green) !important;
+}
 #lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-granularity-wrapper .lia-search-form-granularity {
     border: 2px solid var(--forrest-green) !important;
     color: var(--forrest-green) !important;
     border-right: 3px solid var(--forrest-green) !important;
 }
+#lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-granularity-wrapper .lia-search-form-granularity:hover {
+    color: white !important;
+    background-color: var(--forrest-green);
+}
 #lia-body .lia-content .lia-button.lia-button-primary {
     border: 2px solid var(--forrest-green) !important;
     background-color: var(--forrest-green) !important;
+}
+#lia-body .lia-content .lia-button.lia-button-primary:hover {
+    color: white !important;
+    border: 2px solid var(--power-green) !important;
+    background-color: var(--power-green) !important;
 }
 #lia-body .lia-content .lia-button.reply-action-link {
     border: 2px solid var(--forrest-green) !important;
@@ -273,5 +303,22 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 }
 .lia-button-image-kudos .kudos-count-link {
     color: #444;
+}
+
+.lia-menu-dropdown-items>li>.lia-link-disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard>li>.lia-link-disabled, .lia-menu-dropdown-items .lia-menu-item.lia-link-disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard .lia-menu-item.lia-link-disabled, .lia-menu-dropdown-items .SearchToggleFieldFilter.disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter.disabled, .lia-menu-dropdown-items .SearchToggleFieldFilter .disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter .disabled, .lia-menu-dropdown-items .type-filter-alternative.disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative.disabled, .lia-menu-dropdown-items .type-filter-alternative .disabled, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative .disabled, .lia-common-dropdown-menu .SearchToggleFieldFilter.disabled, .lia-common-dropdown-menu .SearchToggleFieldFilter .disabled, .lia-common-dropdown-menu .type-filter-alternative.disabled, .lia-common-dropdown-menu .type-filter-alternative .disabled, .lia-menu-dropdown-items>li>.lia-link-disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard>li>.lia-link-disabled:hover, .lia-menu-dropdown-items .lia-menu-item.lia-link-disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard .lia-menu-item.lia-link-disabled:hover, .lia-menu-dropdown-items .SearchToggleFieldFilter.disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter.disabled:hover, .lia-menu-dropdown-items .SearchToggleFieldFilter .disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter .disabled:hover, .lia-menu-dropdown-items .type-filter-alternative.disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative.disabled:hover, .lia-menu-dropdown-items .type-filter-alternative .disabled:hover, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative .disabled:hover, .lia-common-dropdown-menu .SearchToggleFieldFilter.disabled:hover, .lia-common-dropdown-menu .SearchToggleFieldFilter .disabled:hover, .lia-common-dropdown-menu .type-filter-alternative.disabled:hover, .lia-common-dropdown-menu .type-filter-alternative .disabled:hover, .lia-menu-dropdown-items>li>.lia-link-disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard>li>.lia-link-disabled:focus, .lia-menu-dropdown-items .lia-menu-item.lia-link-disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard .lia-menu-item.lia-link-disabled:focus, .lia-menu-dropdown-items .SearchToggleFieldFilter.disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter.disabled:focus, .lia-menu-dropdown-items .SearchToggleFieldFilter .disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard .SearchToggleFieldFilter .disabled:focus, .lia-menu-dropdown-items .type-filter-alternative.disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative.disabled:focus, .lia-menu-dropdown-items .type-filter-alternative .disabled:focus, .user-navigation-settings-drop-down-inner>.lia-list-standard .type-filter-alternative .disabled:focus, .lia-common-dropdown-menu .SearchToggleFieldFilter.disabled:focus, .lia-common-dropdown-menu .SearchToggleFieldFilter .disabled:focus, .lia-common-dropdown-menu .type-filter-alternative.disabled:focus, .lia-common-dropdown-menu .type-filter-alternative .disabled:focus {
+    color: #ccc;
+}
+
+.download-all {
+    background: var(--forrest-green);
+}
+.download-all:hover {
+    background: var(--power-green);
+}
+#lia-body .lia-content .lia-component-forums-widget-board-browser .lia-link-navigation.lia-list-tree-toggle::before {
+    color: var(--forrest-green);
+}
+#lia-body .lia-content input[type="text"]:focus, #lia-body .lia.content input[type="text"]:active {
+    border-color: var(--ni-green) !important;
 }
 }
