@@ -3,7 +3,6 @@
 /* Apply this theme to URLs on the domain ni.com */
 @-moz-document domain(ni.com)
 {
-
 :root {
     --forrest-green: #065FA3;
 }
@@ -187,5 +186,17 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 
 #lia-body.CommunityPage .lia-content .lia-quilt-community-page-custom-home-page .lia-quilt-row-main .lia-quilt-column-main-content .ni-tabs>li a:hover {
     background-color: white;
+}
+
+.lia-notification-feed-icon .lia-fa-icon::before {
+    color: var(--forrest-green) !important;
+}
+
+.lia-notification-unread .lia-quilt-notification-feed-item {
+    border-left: 6px solid var(--forrest-green) !important;;
+}
+
+#lia-body .lia-content .InfoMessage.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .InfoMessage.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .InfoMessage.lia-component-common-widget-page-information, #lia-body .lia-content .InfoMessage.lia-panel-feedback-banner-note, #lia-body .lia-content .InfoMessage.lia-component-tag-banner, #lia-body .lia-content .InfoMessage.lia-component-common-widget-page-information, #lia-body .lia-content .InfoMessage.lia-autosave-options, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information.lia-component-tag-banner, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-autosave-options, #lia-body .lia-content .lia-quilt-column-feedback .lia-autosave-options.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-autosave-options.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information.lia-component-tag-banner, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-autosave-options, #lia-body .lia-content .lia-autosave-options.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-autosave-options {
+    border-color: var(--forrest-green) !important;
 }
 }
