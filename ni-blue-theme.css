@@ -338,4 +338,7 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 #lia-body .lia-content input[type="text"]:focus, #lia-body .lia.content input[type="text"]:active {
     border-color: var(--ni-green) !important;
 }
+.ni-lead-space-login .UserNavigation.lia-list-standard-inline.lia-component-common-widget-user-navigation-modern li > a.lia-link-navigation.login-link:hover, .ni-lead-space-login .UserNavigation.lia-list-standard-inline.lia-component-common-widget-user-navigation-modern li > a.lia-link-navigation.login-link:focus {
+    color: var(--forrest-green) !important;
+}
 }
