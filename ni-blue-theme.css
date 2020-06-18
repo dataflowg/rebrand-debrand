@@ -72,7 +72,7 @@ h3 {
     color: var(--forrest-green);
 }
 
-h2[style="color:#044123;"] {
+h2[style="color:#044123"] {
     color: #444 !important;
 }
 
@@ -91,6 +91,9 @@ h3[style="color:#044123"] {
     color: #444;
 }
 .ni-megamenu-desktop .ni-megamenu-support .row:nth-child(2) .col-sm-3 p {
+    color: #444;
+}
+.breadcrumb a, .breadcrumb div.ni-body-copy-secondary {
     color: #444;
 }
 
@@ -205,6 +208,12 @@ path[fill="#CDDCC8"] {
 }
 .ni__eyebrow_headline_CTA .ni__eyebrow span:before {
     border-top: 2px solid var(--forrest-green);
+}
+.ni-binary-attribute-title.twistie-header {
+    color: #444;
+}
+.ps-nav li.ps-nav-selected, .ps-nav li.active {
+    background-color: white;
 }
 
 /* FOOTER */
