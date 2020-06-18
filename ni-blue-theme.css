@@ -92,6 +92,9 @@ h3[style="color:#044123"] {
 .ni__hero-solutions__path:before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMTI4OCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDY1RkEzIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIGQ9Ik00NzggMnY4NTYuMDIyQzQ3OCAxMDk0LjM4OCAyMzcuNTgzIDEyODYgMiAxMjg2Ii8+PC9zdmc+);
 }
+path[d="M2 2v1091.628C2 1328.555 193.46 1519 429.636 1519H661"] {
+    stroke: var(--forrest-green);
+}
 
 .bg-full-overlay .overlay-blue {
     background-color: var(--forrest-green);
@@ -118,6 +121,12 @@ h3[style="color:#044123"] {
 .ni-btn-app, .ni-btn-tertiary, FORM .ni-btn-app, FORM .ni-btn-tertiary {
     background-color: inherit;
     border-color: var(--forrest-green);
+}
+div[class="ni__carousel-content-container"] {
+    color: #333;
+}
+.ni__carousel-tiled-images .ni__carousel-divider {
+    border-color: #333;
 }
 
 /* FOOTER */
