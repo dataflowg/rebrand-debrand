@@ -5,6 +5,8 @@
 {
 :root {
     --forrest-green: #065FA3;
+    --power-green: #3989c6;
+    --ni-green: #94b7d1;
 }
 
 /* LINKS */
@@ -123,10 +125,13 @@ path[d="M2 2v1091.628C2 1328.555 193.46 1519 429.636 1519H661"] {
     border-color: var(--forrest-green);
 }
 div[class="ni__carousel-content-container"] {
-    color: #333;
+    color: #111;
 }
 .ni__carousel-tiled-images .ni__carousel-divider {
-    border-color: #333;
+    border-color: #111;
+}
+.ni__lead-quote-stats__item span {
+    color: #444;
 }
 
 /* FOOTER */
@@ -157,6 +162,9 @@ div[class="container-fluid clearfix ni-blue"] {
 #lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action,
 #lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action {
     background: var(--forrest-green) !important;
+}
+.footer-body .footer-bottomLinks .allRights, .footer-body .footer-bottomLinks .legal, .footer-body .footer-bottomLinks .ni-contact-number-container, .footer-body .footer-bottomLinks a {
+    color: #444;
 }
 
 /* FORUM */
@@ -226,5 +234,11 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 
 #lia-body .lia-content .InfoMessage.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .InfoMessage.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .InfoMessage.lia-component-common-widget-page-information, #lia-body .lia-content .InfoMessage.lia-panel-feedback-banner-note, #lia-body .lia-content .InfoMessage.lia-component-tag-banner, #lia-body .lia-content .InfoMessage.lia-component-common-widget-page-information, #lia-body .lia-content .InfoMessage.lia-autosave-options, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information.lia-component-tag-banner, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-autosave-options, #lia-body .lia-content .lia-quilt-column-feedback .lia-autosave-options.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-autosave-options.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-quilt-column-feedback .lia-component-common-widget-page-information.lia-component-tag-banner, .lia-quilt-column-feedback #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-status-banner-note.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-component-common-widget-page-information.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-autosave-options, #lia-body .lia-content .lia-autosave-options.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-status-banner-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-feedback-banner-note, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-autosave-options {
     border-color: var(--forrest-green) !important;
+}
+.lia-button-image-kudos .kudos-count-link.lia-link-disabled, .lia-button-image-kudos .kudos-count-link.lia-link-disabled:active, .lia-button-image-kudos .kudos-count-link.lia-link-disabled:active:focus, .lia-button-image-kudos .kudos-count-link.lia-link-disabled:active:hover, .lia-button-image-kudos .kudos-count-link.lia-link-disabled:focus, .lia-button-image-kudos .kudos-count-link.lia-link-disabled:hover {
+    color: #444;
+}
+.lia-button-image-kudos .kudos-count-link {
+    color: #444;
 }
 }
