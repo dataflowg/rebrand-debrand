@@ -13,6 +13,7 @@
 /* LINKS */
 a {
     color: var(--forrest-green) !important;
+    text-decoration: none;
 }
 .ni__button--primary {
     color: var(--off-white) !important;
@@ -84,6 +85,12 @@ h3[style="color:#044123"] {
 }
 
 .ni-megamenu-title {
+    color: #444;
+}
+.ni-megamenu-desktop .ni-megamenu-solutions .ni-live-image p {
+    color: #444;
+}
+.ni-megamenu-desktop .ni-megamenu-support .row:nth-child(2) .col-sm-3 p {
     color: #444;
 }
 
