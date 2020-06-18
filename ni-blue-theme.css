@@ -69,6 +69,22 @@ h3 {
     color: var(--forrest-green);
 }
 
+h2[style="color:#044123;"] {
+    color: #444 !important;
+}
+
+h3[style="color:#044123"] {
+    color: #444 !important;
+}
+
+.ni-megamenu-desktop h2, .ni-megamenu-desktop h3 {
+    color: #444;
+}
+
+.ni-megamenu-title {
+    color: #444;
+}
+
 /* BODY */
 .ni__hero-block__content {
     background-color: var(--off-white) !important;
@@ -135,6 +151,9 @@ div[class="container-fluid clearfix ni-blue"] {
 }
 
 /* FORUM */
+#lia-body .global-header-breadcrumb-wrapper div.left .lia-component-common-widget-breadcrumb .lia-link-navigation {
+    color: #444;
+}
 #lia-body .global-header-breadcrumb {
     background-color: var(--off-white) !important;
 }
