@@ -118,6 +118,12 @@ h3[style="color:#044123"] {
 .lia-breadcrumb > .lia-list-standard-inline > li + li::before {
     color: #444 !important;
 }
+.nia-menu-item.header-icon > a:hover, .nia-menu-item > a.dropdown-toggle:active, .nia-menu-item > a:hover {
+    border-bottom: 2px solid var(--forrest-green);
+}
+li.nia-menu-item.dropdown.mega-dropdown.open > a {
+    border-bottom: 2px solid var(--forrest-green);
+}
 
 /* BODY */
 .ni__hero-block__content {
