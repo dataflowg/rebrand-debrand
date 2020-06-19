@@ -112,6 +112,9 @@ h3[style="color:#044123"] {
 .breadcrumb a, .breadcrumb div.ni-body-copy-secondary {
     color: #444;
 }
+.lia-breadcrumb > .lia-list-standard-inline > li + li::before {
+    color: #444 !important;
+}
 
 /* BODY */
 .ni__hero-block__content {
@@ -413,6 +416,9 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
     background-color: white;
 }
 .lia-panel .lia-panel-heading-bar, .lia-spoiler-container .lia-spoiler-link {
+    color: #444;
+}
+#lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-granularity-wrapper .lia-search-form-granularity option {
     color: #444;
 }
 }
