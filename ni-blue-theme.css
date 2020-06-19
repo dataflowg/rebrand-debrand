@@ -26,6 +26,12 @@ a {
 }
 
 /* REBRAND STATEMENT */
+div[id="firstExperience"] {
+    visibility: hidden !important;
+}
+div[class="modal-backdrop fade in"] {
+    visibility: hidden !important;
+}
 .ni-first-experience .rectangle {
     background-color: var(--forrest-green);
 }
@@ -41,6 +47,16 @@ a {
 
 .ni-first-experience.fade {
     background-color: #ddddddbf;
+}
+#cookieLaw p {
+    color: #444;
+}
+#cookieLaw .ni-btn-tertiary {
+    border: 2px solid var(--forrest-green);
+    color: var(--forrest-green);
+}
+#cookieLaw .ni-btn-tertiary:hover {
+    color: white;
 }
 
 /* HEADER */
@@ -112,7 +128,7 @@ path[d="M2 2v1091.628C2 1328.555 193.46 1519 429.636 1519H661"] {
 }
 
 .bg-full-overlay .overlay-blue {
-    background-color: var(--forrest-green);
+    background-color: var(--power-green);
 }
 
 .ni__carousel .ni__carousel-container {
@@ -129,6 +145,10 @@ path[d="M2 2v1091.628C2 1328.555 193.46 1519 429.636 1519H661"] {
 .ni-btn-app, .ni-btn-tertiary, FORM .ni-btn-app, FORM .ni-btn-tertiary {
     background-color: inherit;
     border-color: var(--forrest-green);
+}
+.ni-btn-app:hover, .ni-btn-tertiary:hover, FORM .ni-btn-app:hover, FORM .ni-btn-tertiary:hover {
+    background-color: var(--forrest-green) !important;
+    border-color: var(--forrest-green) !important;
 }
 div[class="ni__carousel-content-container"] {
     color: #111;
@@ -215,6 +235,16 @@ path[fill="#CDDCC8"] {
 .ps-nav li.ps-nav-selected, .ps-nav li.active {
     background-color: white;
 }
+.ni-white {
+    color: #444;
+}
+.ni-btn-selection button {
+    border: 2px solid var(--forrest-green) !important;
+    color: var(--forrest-green) !important;
+}
+.ni-btn-selection button:hover {
+    background-color: var(--forrest-green) !important;
+}
 
 /* FOOTER */
 .footer-body {
@@ -294,6 +324,10 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
     color: white !important;
     background-color: var(--forrest-green);
 }
+#lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-granularity-wrapper .lia-search-form-granularity:focus {
+    color: white !important;
+    background-color: var(--forrest-green);
+}
 #lia-body .lia-content .lia-button.lia-button-primary {
     border: 2px solid var(--forrest-green) !important;
     background-color: var(--forrest-green) !important;
@@ -310,6 +344,10 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 #lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .btn-block,
 #lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .btn-block {
     border: 2px solid var(--forrest-green) !important;
+}
+#lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .btn-block:hover,
+#lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .btn-block:hover {
+    color: white !important;
 }
 
 .ni-tabs > li.active div {
@@ -356,5 +394,16 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 }
 .ni-lead-space-login .UserNavigation.lia-list-standard-inline.lia-component-common-widget-user-navigation-modern li > a.lia-link-navigation.login-link:hover, .ni-lead-space-login .UserNavigation.lia-list-standard-inline.lia-component-common-widget-user-navigation-modern li > a.lia-link-navigation.login-link:focus {
     color: var(--forrest-green) !important;
+}
+#lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action:hover, #lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action:hover {
+    background: var(--power-green) !important;
+}
+#lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-granularity-wrapper .search-granularity:hover, #lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-granularity-wrapper .search-granularity:hover {
+    color: white !important;
+    background-color: var(--forrest-green) !important;
+}
+#lia-body.CommunityPage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-granularity-wrapper .search-granularity:focus, #lia-body.TkbArticlePage .lia-content .lia-quilt-row-search .lia-quilt-column-search-content .SearchForm.lia-search-form-wrapper .lia-search-granularity-wrapper .search-granularity:focus {
+    color: white !important;
+    background-color: var(--forrest-green) !important;
 }
 }
