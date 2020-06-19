@@ -309,6 +309,7 @@ div[style="background: url(https://ni.scene7.com/is/image/ni/community_feature?o
     color: red;
 }
 .ni-btn-commerce, a.ni-btn-commerce {
+    color: white !important;
     background-color: var(--forrest-green);
 }
 .ni-btn-commerce:hover, a.ni-btn-commerce:hover {
