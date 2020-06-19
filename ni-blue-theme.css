@@ -112,6 +112,9 @@ h3[style="color:#044123"] {
 .breadcrumb a, .breadcrumb div.ni-body-copy-secondary {
     color: #444;
 }
+.breadcrumb .delimiter::before {
+    color: #444;
+}
 .lia-breadcrumb > .lia-list-standard-inline > li + li::before {
     color: #444 !important;
 }
@@ -280,6 +283,9 @@ div[class="container-fluid clearfix ni-blue"] {
 }
 .footer-body .footer-bottomLinks .allRights, .footer-body .footer-bottomLinks .legal, .footer-body .footer-bottomLinks .ni-contact-number-container, .footer-body .footer-bottomLinks a {
     color: #444;
+}
+.ni__perspective-grid__title {
+    color: var(--ni-green);
 }
 
 
