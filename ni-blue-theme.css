@@ -257,6 +257,11 @@ path[fill="#CDDCC8"] {
 .ni-btn-selection button:hover {
     background-color: var(--forrest-green) !important;
 }
+.ni-blue .ni-btn-commerce:hover, .ni-darkgrey .ni-btn-commerce:hover {
+    background-color: var(--power-green);
+    border-color: var(--power-green);
+    color: white !important;
+}
 
 /* FOOTER */
 .footer-body {
