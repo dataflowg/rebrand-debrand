@@ -279,7 +279,7 @@ footer .footer-header {
     color: var(--forrest-green) !important;
 }
 
-div[class="container-fluid clearfix ni-blue"] {
+div[style="background: url(https://ni.scene7.com/is/image/ni/community_feature?op_saturation=-70&opac=15&blendmode=screen&fmt=jpg&qlt=90&op_colorize=4,65,35&wid=1980&bgc=4,65,35) no-repeat center; background-size: cover;"] {
     background: url(https://ni.scene7.com/is/image/ni/community_feature?op_saturation=-70&opac=15&blendmode=screen&fmt=jpg&qlt=90&op_colorize=17,97,160&wid=1980&bgc=17,97,160) no-repeat center !important;
 }
 
@@ -292,6 +292,31 @@ div[class="container-fluid clearfix ni-blue"] {
 }
 .ni__perspective-grid__title {
     color: var(--ni-green);
+}
+.accordion .panel-group .panel.active .panel-heading .glyphicon, .accordion .panel-group .panel.inactive .panel-heading .glyphicon, .accordion .panel-group .panel .panel-heading .glyphicon {
+    color: #444 !important;
+}
+.ni-price {
+    color: red;
+}
+.ni-text-price {
+    color: red;
+}
+.ni-btn-commerce, a.ni-btn-commerce {
+    background-color: var(--forrest-green);
+}
+.ni-btn-commerce:hover, a.ni-btn-commerce:hover {
+    background-color: var(--power-green);
+    border: 2px solid var(--power-green)
+}
+.ni-progress-bar .btn.active, .ni-progress-bar .btn.active * {
+    background-color: var(--ni-green);
+}
+.ni-progress-bar .btn.active::after {
+    border-left-color: var(--ni-green);
+}
+a[class="ni-uppercase ni-btn ni-btn-commerce analytics-anchor-link"] {
+    color: white !important;
 }
 
 
