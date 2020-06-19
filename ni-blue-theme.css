@@ -75,7 +75,8 @@ li.nia-menu-item.nia-utils.header-icon svg {
     background-color: var(--forrest-green) !important;
 }
 .ni-blue {
-    background-color: var(--forrest-green);
+    /*background-color: var(--forrest-green);*/
+    background: linear-gradient(var(--forrest-green),var(--power-green),var(--forrest-green));
 }
 .ni-megamenu-desktop h4 {
     color: var(--forrest-green);
@@ -322,6 +323,26 @@ div[style="background: url(https://ni.scene7.com/is/image/ni/community_feature?o
 }
 a[class="ni-uppercase ni-btn ni-btn-commerce analytics-anchor-link"] {
     color: white !important;
+}
+.ni-btn-primary {
+    color: #fff !important;
+    background-color: var(--forrest-green);
+    border-color: var(--forrest-green);
+}
+.ni-btn-primary:hover {
+    color: #fff !important;
+    background-color: var(--power-green);
+    border-color: var(--power-green);
+}
+.ni-blue .ni-btn-primary, .ni-btn-primary.ni-btn-reversed, .ni-darkgrey .ni-btn-primary {
+    color: var(--forrest-green) !important;
+    background-color: #fff;
+    border-color: #fff;
+}
+.ni-blue .ni-btn-primary:hover, .ni-btn-primary.ni-btn-reversed:hover, .ni-darkgrey .ni-btn-primary:hover {
+    color: white !important;
+    background-color: var(--forrest-green);
+    border-color: var(--forrest-green);
 }
 
 
