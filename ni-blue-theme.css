@@ -555,4 +555,7 @@ blockquote {
     background: transparent !important;
     color: var(--forrest-green) !important;
 }
+.lia-media-snippet-container a, .lia-message-body a, .lia-message-body-content a, .lia-message-editor a {
+    text-decoration: none;
+}
 }
