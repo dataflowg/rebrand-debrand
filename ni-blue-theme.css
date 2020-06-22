@@ -201,6 +201,13 @@ path[stroke="#044123"] {
 .ni__aboutus-peoplefirst .ni__aboutus-peoplefirst_eyebrow span:before {
     border-top: 2px solid var(--forrest-green);
 }
+.ni__aboutus-getThere .ni__aboutus-getThere__container span:after {
+    border-bottom: 2px solid var(--forrest-green);
+    border-right: 2px solid var(--forrest-green);
+}
+.ni__about-us-headline__text {
+    color: #444;
+}
 .ni__button--outline {
     border-color: var(--power-green);
 }
@@ -345,6 +352,9 @@ a[class="ni-uppercase ni-btn ni-btn-commerce analytics-anchor-link"] {
     background-color: var(--forrest-green);
     border-color: var(--forrest-green);
 }
+.footer-body .socialIcons .bg-line {
+    background-image: none;
+}
 
 
 /* FORUM */
@@ -373,6 +383,21 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 }
 .lia-component-forums-widget-message-list.lia-component-message-list tr.lia-list-row-thread-solved {
     border: 2px solid #008000 !important;
+}
+#lia-body.ForumTopicPage .lia-component-quilt-forum-topic-header .lia-forum-topic-page-solution-link:before {
+    border-top: 46px solid #008000;
+}
+.lia-component-solution-info {
+    background-color: #008000;
+}
+#lia-body.ForumTopicPage .lia-content .lia-panel-message>.lia-message-view-wrapper>.lia-message-view-display.lia-accepted-solution, #lia-body.GroupMessagePage .lia-content .lia-panel-message>.lia-message-view-wrapper>.lia-message-view-display.lia-accepted-solution {
+    border: 2px solid #008000;
+}
+#lia-body .lia-content .lia-img-icon-accept-solution, #lia-body .lia-content .lia-img-icon-arrow-down-safe, #lia-body .lia-content .lia-img-icon-arrow-up-safe, #lia-body .lia-content .lia-img-message-type-resolution, #lia-body .lia-content .lia-img-message-type-resolved, #lia-body .lia-content .lia-img-message-type-solution, #lia-body .lia-content .lia-img-message-type-solved, #lia-body .lia-content .lia-img-online {
+    color: white;
+}
+#lia-body .solution-accepter .lia-component-common-widget-link {
+    color: white !important;
 }
 
 #lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-input-wrapper .lia-button-wrapper-searchForm-action .lia-button-searchForm-action {
@@ -484,5 +509,50 @@ a[class="lia-link-navigation registration-link lia-component-users-action-regist
 }
 #lia-body .lia-content .lia-component-common-widget-search-form .SearchForm.lia-form-inline .lia-search-granularity-wrapper .lia-search-form-granularity option {
     color: #444;
+}
+#lia-body .lia-content .InfoMessage.lia-panel-feedback-inline-note, #lia-body .lia-content .InfoMessage.lia-autosave-feedback, #lia-body .lia-content .InfoMessage.lia-panel-feedback-inline-safe, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-feedback-inline-note, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-inline-note.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-inline-note.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-autosave-feedback, #lia-body .lia-content .lia-quilt-column-feedback .lia-autosave-feedback.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-autosave-feedback.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-status-banner-note.lia-panel-feedback-inline-safe, #lia-body .lia-content .lia-quilt-column-feedback .lia-panel-feedback-inline-safe.lia-component-common-widget-page-information, .lia-quilt-column-feedback #lia-body .lia-content .lia-panel-feedback-inline-safe.lia-component-common-widget-page-information, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-feedback-inline-note, #lia-body .lia-content .lia-panel-feedback-inline-note.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-autosave-feedback, #lia-body .lia-content .lia-autosave-feedback.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-note.lia-panel-feedback-inline-safe, #lia-body .lia-content .lia-panel-feedback-inline-safe.lia-component-tag-banner, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-feedback-inline-note, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-autosave-feedback, #lia-body .lia-content .lia-panel-feedback-banner-alert.lia-panel-feedback-inline-safe {
+    border-color: var(--forrest-green) !important;
+}
+#lia-body .lia-content .lia-button.lia-button-primary.lia-button-Cancel-action {
+    color: white !important;
+}
+.mce-panel .mce-foot .mce-btn.mce-primary {
+    border: 2px solid var(--forrest-green) !important;
+    background: var(--forrest-green) !important;
+}
+.mce-panel .mce-foot .mce-btn {
+    color: var(--forrest-green) !important;
+    border: 2px solid var(--forrest-green) !important;
+}
+.mce-panel .mce-foot .mce-btn:hover {
+    border: 2px solid var(--forrest-green) !important;
+    background-color: var(--forrest-green) !important;
+}
+.mce-panel .mce-foot .mce-btn button span.mce-txt {
+    color: var(--forrest-green);
+}
+blockquote {
+    border-left: 3px solid var(--forrest-green);
+}
+#lia-body.CommunityPage .onlineinfo .online-headerinfo {
+    color: #444;
+}
+.lia-attachments-drop-zone .lia-cloud-symbol .lia-fa:before, .lia-component-tkb-article-editor-form .lia-attachments-drop-zone .lia-cloud-symbol .lia-fa:before {
+    color: var(--forrest-green);
+}
+#lia-body.PostPage .lia-breadcrumb, #lia-body.ReplyPage .lia-breadcrumb, #lia-body.EditPage .lia-breadcrumb {
+    background-color: var(--off-white);
+}
+#lia-body .lia-content .lia-button.lia-js-add-this-widget {
+    color: var(--forrest-green) !important;
+    border: 2px solid var(--forrest-green);
+}
+#lia-body .lia-content .lia-button.lia-js-add-this-widget:hover {
+    background-color: var(--forrest-green) !important;
+    border: 2px solid var(--forrest-green) !important;
+}
+#lia-body .lia-content .lia-button.lia-button-Reset-action {
+    background: transparent !important;
+    color: var(--forrest-green) !important;
 }
 }
