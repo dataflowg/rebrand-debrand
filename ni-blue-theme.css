@@ -86,11 +86,11 @@ li.nia-menu-item.nia-utils.header-icon svg {
 }
 
 h3 {
-    color: var(--forrest-green);
+    color: #444;
 }
 
 h2[style="color:#044123"] {
-    color: #444 !important;
+    color: #444;
 }
 
 h3[style="color:#044123"] {
@@ -269,6 +269,22 @@ path[fill="#CDDCC8"] {
     background-color: var(--power-green);
     border-color: var(--power-green);
     color: white !important;
+}
+.fa-check:before {
+    color: var(--power-green);
+}
+.ni-notification.ni-information {
+    border-color: var(--ni-green);
+}
+.ni-information .icon-container {
+    background-color: var(--ni-green);
+}
+.ni-wrapper-header .cart-badge[data-badge]:after {
+    background: red;
+}
+.Platform {
+    color: #444;
+    font-weight: 700;
 }
 
 /* FOOTER */
@@ -554,5 +570,29 @@ blockquote {
 #lia-body .lia-content .lia-button.lia-button-Reset-action {
     background: transparent !important;
     color: var(--forrest-green) !important;
+}
+
+/* MANUAL */
+.spd-toc .spd-toc-back-links span, .spd-toc .spd-toc-back-links span:hover, .spd-toc .spd-toc-back-links span:focus {
+    color: var(--forrest-green) !important;
+}
+.spd-toc .glyphicon {
+    color: var(--forrest-green);
+}
+.lia-media-snippet-container blockquote, .lia-message-body blockquote, .lia-message-body-content blockquote, .lia-message-editor blockquote {
+    opacity: .9;
+}
+/* Hide author leaderboards. They add nothing to the forum except inflated egos. */
+div[class="lia-panel lia-panel-standard KudoedAuthorsLeaderboardTaplet Chrome lia-component-kudos-widget-authors-leaderboard"] {
+    display: none;
+}
+div[class="lia-panel lia-panel-standard AcceptedSolutionsLeaderboardTaplet Chrome lia-component-solutions-widget-accepted-solutions-leaderboard-taplet"] {
+    display: none;
+}
+div[class="lia-panel lia-panel-standard LabelsTaplet Chrome lia-component-labels-widget-labels-list"] {
+    display: none;
+}
+div[class="lia-panel lia-panel-standard TagCloudTaplet Chrome lia-component-tags-widget-tag-cloud-actual"] {
+    display: none;
 }
 }
