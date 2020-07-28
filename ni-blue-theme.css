@@ -90,7 +90,7 @@ h3 {
 }
 
 h2[style="color:#044123"] {
-    color: #444;
+    color: #444 !important;
 }
 
 h3[style="color:#044123"] {
