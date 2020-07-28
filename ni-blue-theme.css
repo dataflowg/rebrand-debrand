@@ -119,6 +119,9 @@ h3[style="color:#044123"] {
 .lia-breadcrumb > .lia-list-standard-inline > li + li::before {
     color: #444 !important;
 }
+.breadcrumb {
+    text-transform: none;
+}
 .nia-menu-item.header-icon > a:hover, .nia-menu-item > a.dropdown-toggle:active, .nia-menu-item > a:hover {
     border-bottom: 2px solid var(--forrest-green);
 }
@@ -372,6 +375,10 @@ a[class="ni-uppercase ni-btn ni-btn-commerce analytics-anchor-link"] {
     background-image: none;
 }
 
+.ni-aem-table td.navyblue, .tableRTE.cq-Editable-dom td.navyblue {
+    background-color: var(--forrest-green);
+}
+
 
 /* FORUM */
 #lia-body .global-header-breadcrumb-wrapper div.left .lia-component-common-widget-breadcrumb .lia-link-navigation {
@@ -594,5 +601,9 @@ div[class="lia-panel lia-panel-standard LabelsTaplet Chrome lia-component-labels
 }
 div[class="lia-panel lia-panel-standard TagCloudTaplet Chrome lia-component-tags-widget-tag-cloud-actual"] {
     display: none;
+}
+
+#lia-body .lia-content h1, #lia-body .lia-content h2, #lia-body .lia-content h3, #lia-body .lia-content h4, #lia-body .lia-content h5, #lia-body .lia-content h6 {
+    font-family: Roboto Condensed Light,sans-serif;
 }
 }
